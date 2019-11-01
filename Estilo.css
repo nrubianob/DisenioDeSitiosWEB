@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*Cuerpo*/
+
+body{
+	background-color: #838383;
+}
+
+/*Titulo página web*/
+
+header{
+	background-color: #333333;
+	top: 0;
+	left: 0;
+	width: 100%;	
+	position: absolute;
+}
+
+h1{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #F0B429;
+	text-align: center;
+}
+
+img{
+	position: absolute;
+	width: 350px;
+	height: 80px;
+}
+
+/*Menú de navegación*/
+
+nav{
+	
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	Width: 100%;
+	background-color: #333333;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	display: inline;
+}
+
+li a{
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+li a:hover{
+	background-color: #005883;
+}
+
+.active{
+	background-color: #F0B429;
+}
+
+
+/*Contenido*/
+
+article{
+	position: absolute;
+	top: 104px;
+	left: 30px;
+	width: 100%;
+	height: 450px;
+}
+
+
+.Artlecturas{
+	height: 980px;
+}
+
+.Artmultimedia{
+	height: 770px;
+}
+
+/*Contenido Inicio*/
+h2{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #F0B429;
+	text-align:left;
+	
+}
+
+h3{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #F0B429;
+	text-align:left;
+	font-size: 21px;
+}
+
+p{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #333333;
+	text-align:justify;
+	font-size: 18px;
+	left: 80px;
+	width: 95%;	
+}
+
+.video{
+	width: 650px;
+	height: 280px;
+}
+
+
+/*Final página web*/
+
+footer{
+	background-color: #333333;
+	top: 554px;
+	left: 0;
+	width: 100%;	
+	position: absolute;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	color: #F0B429;
+	height: 53px;
+}
+
+.lecturas{
+	top: 1084px;
+}
+
+.multimedia{
+	top: 874px;
+}
+
